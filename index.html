@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Massage By Pedro</title>
+    <link href="./src/input.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;0,700;1,500&family=Hind+Madurai:wght@300;400;500&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header
+        class="w-full absolute inset-x-0 top-0 z-10 text-white bg-transparent"
+      >
+        <div
+          class="py-10 container mx-auto flex items-center justify-between w-full"
+        >
+          <img
+            class="w-20 h-20"
+            src="/public/logo-light.png"
+            alt="website logo"
+          />
+          <nav class="hidden md:block">
+            <ul class="flex gap-10 text-xl">
+              <li><a href="#despre">Despre</a></li>
+              <li><a href="#masaje">Masaje</a></li>
+              <li><a href="#contact">Programari</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div
+        id="hero"
+        class="bg-center bg-fixed bg-no-repeat bg-cover h-screen relative part-of-screen wave"
+      >
+        <!-- Overlay Background + Center Control -->
+        <div
+          class="h-screen bg-opacity-50 bg-black flex items-center justify-center part-of-screen"
+          style="background: rgba(0, 0, 0, 0.7)"
+        >
+          <div class="text-left container">
+            <h1
+              class="text-gray-100 lg:text-5xl font-bold leading-tight text-3xl"
+            >
+              Experiențe Personalizate de Masaj
+            </h1>
+            <p class="text-gray-200 mt-4 text-lg font-normal opacity-90">
+              Prin ședințe de masaj, susținute de un specialist acredidat cu
+              rezultate și experiență atât națională cât și internațională de
+              peste 8 ani.
+            </p>
+            <a
+              href="#contact"
+              class="mt-10 inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+            >
+              Obține o programare
+            </a>
+          </div>
+        </div>
+      </div>
+      <main>
+        <section class="mt-4" id="despre">
+          <div
+            class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row"
+          >
+            <div
+              class="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0"
+            >
+              <!-- <h2
+                class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font"
+              >
+                Your tagline
+              </h2> -->
+              <h2
+                class="mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font"
+              >
+                Massage by Pedro este locul tău de bunăstare!
+              </h2>
+              <p
+                class="mb-8 text-base leading-relaxed text-left text-blueGray-600"
+              >
+                Am călătorit și am muncit în peste 10 tari, am participat la
+                cursuri, seminarii și mentorate și am venit înapoi in Romania
+                pentru a aplica tot ce am învațat și a readuce zâmbetele și
+                sănătatea de care ai nevoie.
+              </p>
+              <div class="flex flex-col justify-center lg:flex-row">
+                <a href="#contact"
+                  ><button
+                    class="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+                  >
+                    Obține o programare
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div class="w-full lg:w-5/6 lg:max-w-lg md:w-1/2 shadow-lg">
+              <img
+                class="object-cover object-center rounded-lg"
+                alt="hero"
+                src="./public/pedro-balcon.png"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="masaje">
+          <div class="container mx-auto">
+            <h2
+              class="text-2xl font-black tracking-tighter text-black md:text-5xl title-font mb-10"
+            >
+              Ofertele noastre
+            </h2>
+          </div>
+          <div
+            class="container mx-auto grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+          >
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img
+                class="w-full h-60"
+                src="/public/services/masaj-relaxare.png"
+                alt="masaj de relaxare"
+              />
+              <div class="px-6 pt-4 h-56">
+                <div class="font-bold text-xl mb-2">Masaj de relaxare</div>
+                <p class="text-gray-700 text-base">
+                  Bucură-te de o evadare plină de relaxare cu masajul nostru
+                  specializat, menit să calmeze tensiunea, să destindă mușchii
+                  și să ofere o experiență revigorantă de rafinată liniște și
+                  binecuvântată relaxare.
+                </p>
+              </div>
+              <div class="px-6 pt-6 pb-4 flex justify-between items-center">
+                <div class="font-bold text-xl mr-4">
+                  90<span class="font-normal opacity-90">RON</span>
+                </div>
+                <a href="#contact"
+                  ><button
+                    class="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+                  >
+                    Programeaza
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img
+                class="w-full h-60"
+                src="./public/services/reflexo-terapie.jpg"
+                alt="masaj reflexaterapie"
+              />
+              <div class="px-6 pt-4 h-56">
+                <div class="font-bold text-xl mb-2">Reflexoterapie</div>
+                <p class="text-gray-700 text-base">
+                  Descoperă echilibrul și revitalizarea prin masajul
+                  reflexoterapeutic, o terapie care stimulează punctele reflexe
+                  ale picioarelor, mâinilor și urechilor pentru a îmbunătăți
+                  starea generală de sănătate.
+                </p>
+              </div>
+              <div class="px-6 pt-6 pb-4 flex justify-between items-center">
+                <div class="font-bold text-xl mr-4">
+                  100<span class="font-normal opacity-90">RON</span>
+                </div>
+                <a href="#contact"
+                  ><button
+                    class="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+                  >
+                    Programeaza
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img
+                class="w-full h-60"
+                src="./public/services/masaj-sportiv.png"
+                alt="masaj sportiv"
+              />
+              <div class="px-6 pt-4 h-56">
+                <div class="font-bold text-xl mb-2">Masaj Sportiv</div>
+                <p class="text-gray-700 text-base">
+                  O terapie specializată concepută pentru atleți și activități
+                  fizice intense. Acest tip de masaj vizează reducerea tensiunii
+                  musculare, îmbunătățirea flexibilității și accelerarea
+                  recuperării, contribuind la performanțe optime și prevenirea
+                  leziunilor.
+                </p>
+              </div>
+              <div class="px-6 pt-6 pb-4 flex justify-between items-center">
+                <div class="font-bold text-xl mr-4">
+                  100<span class="font-normal opacity-90">RON</span>
+                </div>
+                <a href="#contact"
+                  ><button
+                    class="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+                  >
+                    Programeaza
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img
+                class="w-full h-60"
+                src="/public/services/masaj-miere.jpg"
+                alt="masaj miere de albine"
+              />
+              <div class="px-6 pt-4 h-56">
+                <div class="font-bold text-xl mb-2">
+                  Masaj cu miere de albine
+                </div>
+                <p class="text-gray-700 text-base">
+                  Masajul cu miere de albine poate fi perceput ca o modalitate
+                  unică și naturală de a combina relaxarea cu beneficiile pentru
+                  piele și organism, oferind astfel o experiență holistică de
+                  binecuvântare și revitalizare.
+                </p>
+              </div>
+              <div class="px-6 pt-6 pb-4 flex justify-between items-center">
+                <div class="font-bold text-xl mr-4">
+                  250<span class="font-normal opacity-90">RON</span>
+                </div>
+                <a href="#contact"
+                  ><button
+                    class="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+                  >
+                    Programeaza
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img
+                class="w-full h-60"
+                src="/public/services/pedro-masaj-stomac.png"
+                alt="masaj terapeutic"
+              />
+              <div class="px-6 pt-4 h-56">
+                <div class="font-bold text-xl mb-2">Masaj Terapeutic</div>
+                <p class="text-gray-700 text-base">
+                  Masajul terapeutic folosește presiune și mișcări specifice
+                  pentru a relaxa mușchii, îmbunătățind circulația și reducând
+                  disconfortul, promovând astfel starea de bine fizică și
+                  mentală.
+                </p>
+              </div>
+              <div class="px-6 pt-6 pb-4 flex justify-between items-center">
+                <div class="font-bold text-xl mr-4">
+                  100<span class="font-normal opacity-90">RON</span>
+                </div>
+                <a href="#contact"
+                  ><button
+                    class="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+                  >
+                    Programeaza
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img
+                class="w-full h-60"
+                src="/public/services/cellulitic-massage.jpg"
+                alt="Masaj Anticelulitic"
+              />
+              <div class="px-6 pt-4 h-56">
+                <div class="font-bold text-xl mb-2">Masaj Anticelulitic</div>
+                <p class="text-gray-700 text-base">
+                  Masajul anticelulitic utilizează mișcări intense pentru a
+                  stimula circulația și a reduce celulita, promovând aspectul
+                  ferm și tonifiat al pielii.
+                </p>
+              </div>
+              <div class="px-6 pt-6 pb-4 flex justify-between items-center">
+                <div class="font-bold text-xl mr-4">
+                  100<span class="font-normal opacity-90">RON</span>
+                </div>
+                <a href="#contact"
+                  ><button
+                    class="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+                  >
+                    Programeaza
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="prezentare">
+          <div
+            class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row"
+          >
+            <div class="w-full lg:w-5/6 lg:max-w-lg md:w-1/2 mb-16">
+              <img
+                class="object-cover object-center rounded-lg"
+                alt="hero"
+                src="./public/poza-salon.jpeg"
+              />
+            </div>
+            <div
+              class="flex flex-col items-starttext-left lg:flex-grow md:w-1/2 xl:ml-20 md:pl-24 md:mb-0"
+            >
+              <h2
+                class="mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font"
+              >
+                Salonul nostru
+              </h2>
+              <p
+                class="mb-8 text-base leading-relaxed text-left text-blueGray-600"
+              >
+              Fie că aveți nevoie de o evadare relaxantă din agitația zilnică sau sunteți în căutarea unei soluții pentru durerile musculare, suntem aici pentru a vă oferi o experiență de masaj de calitate superioară. În plus, salonul nostru este echipat cu facilități moderne și confortabile, creând un mediu linistitor și liniștitor.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="container mx-auto">
+            <h2
+              class="text-2xl font-black tracking-tighter text-black md:text-5xl title-font mb-20"
+            >
+              Contact
+            </h2>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
