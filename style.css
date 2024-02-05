@@ -49,19 +49,30 @@ p {
   font-family: 'Hind Madurai', sans-serif;
 }
 
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width: 1280px) {
   .part-of-screen {
-    height: 80vh;
+    height: 95vh;
   }
 
   html {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    scroll-behavior: smooth;
+    font-size: 16px;
   }
 
   section {
     margin-block: 12rem;
   }
   
+}
+
+@media (min-width: 1280px) {
+  .part-of-screen {
+    height: 80vh;
+  }
+  html {
+    font-size: 20px;
+  }
+
+  section {
+    margin-block: 12rem;
+  }
 }
