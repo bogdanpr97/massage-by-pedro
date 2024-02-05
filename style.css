@@ -7,7 +7,7 @@ body {
 }
 
 .button-color {
-  background-color: #C1906F;
+  background-color: #A86141;
   /* background-color: #A86141; */
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 #hero {
-  background: url("../public/heroLG.jpg");
+  background: url("./public/heroLG.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 25%;
@@ -33,12 +33,12 @@ footer {
 
 html {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   scroll-behavior: smooth;
 }
 
 section {
-  margin-block: 7rem;
+  margin-block: 8rem;
 }
 
 h3 {
@@ -56,8 +56,12 @@ p {
 
   html {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     scroll-behavior: smooth;
+  }
+
+  section {
+    margin-block: 12rem;
   }
   
 }
