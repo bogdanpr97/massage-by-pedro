@@ -33,7 +33,7 @@ footer {
 
 html {
   font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
@@ -55,11 +55,11 @@ p {
   }
 
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   section {
-    margin-block: 12rem;
+    margin-block: 14rem;
   }
   
 }
@@ -73,6 +73,6 @@ p {
   }
 
   section {
-    margin-block: 12rem;
+    margin-block: 14rem;
   }
 }
